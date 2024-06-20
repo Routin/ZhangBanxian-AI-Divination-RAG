@@ -83,7 +83,8 @@ with open("/root/banxian/resource/卦名map.json") as f:
 with open("{项目地址实际}/resource/卦名map.json") as f:
     gua_name_map = json.load(f)
 ```
-
+### 开始命令
+直接在项目主目录下使用`python banxian.py`命令运行进入对话，首次加载会从远端进行模型下载，时间较长，建议使用**科学上网**方法。
 ## 项目演示效果
 
 ### 模型加载
@@ -96,10 +97,10 @@ with open("{项目地址实际}/resource/卦名map.json") as f:
 
 ## 有无RAG效果对比
 
-无RAG
+**无RAG**
 
 ![norag](./assets/qwenonly.png)
 
-有RAG
+**有RAG**
 
 ![rag](./assets/qwenrag.png)
