@@ -7,7 +7,7 @@ banxian = LLM(use_quantization=True)
 # 启动向量数据库
 from VectorBase.vector import VectorDatabase
 vector_db = VectorDatabase()
-vector_db.generate_vector_database("/root/banxian/resource/Gua.txt") # 生成数据库
+vector_db.generate_vector_database("./resource/Gua.txt") # 生成数据库
 vector_db.load_vector_database() # 加载数据库
 
 # 起卦并得到卦象和动爻的函数

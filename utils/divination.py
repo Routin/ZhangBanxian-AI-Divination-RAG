@@ -20,7 +20,7 @@ reversed_gua_map = {'乾为天': '111111', '天风姤': '111110', '天山遁': '
 gua_map = {v: k for k, v in reversed_gua_map.items()}
 
 import json
-with open("/root/banxian/resource/卦名map.json") as f:
+with open("/root/ZhangBanxian-AI-Divination-RAG/resource/卦名map.json") as f:
     gua_name_map = json.load(f)
 
 def coin_toss():
