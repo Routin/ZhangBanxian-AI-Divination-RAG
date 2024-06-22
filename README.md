@@ -89,7 +89,7 @@ with open("{项目地址实际}/resource/卦名map.json") as f:
 
 ### 模型加载
 
-![模型加载](./assets/dialogue.png)
+![模型加载](./assets/modelloading.png)
 
 ### 起卦与对话
 
